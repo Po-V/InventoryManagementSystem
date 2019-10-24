@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "607890731100",
+    "firebase_url": "https://inventorymanagementsyste-3b0ca.firebaseio.com",
+    "project_id": "inventorymanagementsyste-3b0ca",
+    "storage_bucket": "inventorymanagementsyste-3b0ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607890731100:android:d49fa6f98ddfc3b6ff3699",
+        "android_client_info": {
+          "package_name": "com.example.inventorymanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607890731100-9qpi11p82tkc7bgt4pufj6gtggoo02s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inventorymanagementsystem",
+            "certificate_hash": "c8bd0f220e7ad4a6f296b28333af41e0d2363dda"
+          }
+        },
+        {
+          "client_id": "607890731100-f6pd0htnsf9bfp68356ni7madsd7r090.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inventorymanagementsystem",
+            "certificate_hash": "2669467295354e12c93ddead208a74b746a56d50"
+          }
+        },
+        {
+          "client_id": "607890731100-emhbu7cp7a41qoop6o4p2b5ia2nl7lvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inventorymanagementsystem",
+            "certificate_hash": "b92892f4a91b248a86387719186bf9a3ea87e2d4"
+          }
+        },
+        {
+          "client_id": "607890731100-ff0htiq6ehf7p74mogogmicds2qg0g77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzIj7bWPL_TjmKn_zu8RQgJqivA3jIfJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607890731100-ff0htiq6ehf7p74mogogmicds2qg0g77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

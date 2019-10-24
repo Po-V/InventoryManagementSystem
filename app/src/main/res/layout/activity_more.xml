@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MoreActivity">
+
+
+    <Button
+        android:id="@+id/genReportBtn"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/generate_report"
+        app:layout_constraintBottom_toTopOf="@+id/manUsersBtn"
+        app:layout_constraintEnd_toEndOf="@+id/manUsersBtn"
+        app:layout_constraintStart_toStartOf="@+id/manUsersBtn"
+        app:layout_constraintTop_toBottomOf="@+id/genLabels" />
+
+    <Button
+        android:id="@+id/manUsersBtn"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/manage_users"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogout"
+        app:layout_constraintEnd_toEndOf="@+id/btnlogout"
+        app:layout_constraintStart_toStartOf="@+id/btnlogout"
+        app:layout_constraintTop_toBottomOf="@+id/genReportBtn" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="308dp"
+        android:text="@string/logout"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manUsersBtn" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogout"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <Button
+        android:id="@+id/genLabels"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="42dp"
+        android:text="@string/generate_labels"
+        app:layout_constraintBottom_toTopOf="@+id/genReportBtn"
+        app:layout_constraintEnd_toEndOf="@+id/genReportBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/genReportBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="132dp"
+        android:layout_height="164dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="680dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogout"
+        app:layout_constraintVertical_bias="0.322" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

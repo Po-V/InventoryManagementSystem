@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".EditSupplierDetailsActivity">
+
+    <ImageView
+        android:id="@+id/updateSupplierIm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+        android:contentDescription="@string/upSupplierImage" />
+
+    <EditText
+        android:id="@+id/edtSupplierName"
+        android:hint="@string/edtsupplier_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/edtSupplierEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtsupplier_email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/edtSupplierPhone"
+        android:hint="@string/edtsupplier_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+    <EditText
+        android:id="@+id/edtSupplierAddress"
+        android:hint="@string/edtsupplier_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/edtSupplierComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtsupplier_comments"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" />
+
+
+</LinearLayout>
